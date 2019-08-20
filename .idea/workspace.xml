@@ -1,36 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="105a34dd-0660-4c0c-9242-b50da1272163" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbozookeeper.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ntc-interface/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ntc-interface/src/main/java/bean/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ntc-interface/src/main/java/service/payMoney.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ntc-interface/src/main/java/service/selectUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ntc-interface/target/classes/bean/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ntc-interface/target/classes/service/payMoney.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ntc-interface/target/classes/service/selectUser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pay-service-provider/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pay-service-provider/src/main/java/payMoneyImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pay-service-provider/src/main/java/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pay-service-provider/src/main/resources/provider.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pay-service-provider/target/classes/payMoneyImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pay-service-provider/target/classes/provider.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pay-service-provider/target/classes/test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service-consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service-consumer/src/main/java/selectUserImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service-consumer/src/main/java/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service-consumer/src/main/resources/consumer.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service-consumer/target/classes/consumer.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service-consumer/target/classes/selectUserImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service-consumer/target/classes/test.class" afterDir="false" />
-    </list>
+    <list default="true" id="105a34dd-0660-4c0c-9242-b50da1272163" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/pay-service-provider/target/" />
@@ -214,6 +185,11 @@
             <path>
               <item name="dubbozookeeper" type="b2602c69:ProjectViewProjectNode" />
               <item name="dubbozookeeper" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbozookeeper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbozookeeper" type="462c0819:PsiDirectoryNode" />
               <item name="ntc-interface" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -392,15 +368,15 @@
       <workItem from="1565093168962" duration="1596000" />
       <workItem from="1565096409864" duration="7098000" />
       <workItem from="1565107229432" duration="3865000" />
-      <workItem from="1566278971161" duration="3323000" />
+      <workItem from="1566278971161" duration="4193000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15882000" />
+    <option name="totallyTimeSpent" value="16752000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1040" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="1040" extended-state="7" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2588997" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -542,6 +518,16 @@
           <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/user-service-consumer/src/main/java/test.java">
       <provider selected="true" editor-type-id="text-editor">
