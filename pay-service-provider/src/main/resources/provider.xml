@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://dubbo.apache.org/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://dubbo.apache.org/schema/dubbo
+       http://dubbo.apache.org/schema/dubbo/dubbo.xsd">
+    <!-- 指定当前服务程序 name:项目名称 -->
+    <dubbo:application name="pay-service-provider"/>
+    <!-- 连接注册中心zookeeper -->
+    <dubbo:registry address="zookeeper://127.0.0.1:2181"/>
+    <!-- <dubbo:registry protocol="zookeeper" address="127.0.0.1:2181"/> -->
+    <!-- 指定通信规则(通信协议 通信端口) -->
+    <dubbo:protocol name="dubbo" port="20890"/>
+    <!-- 服务实现对象 -->
+    <bean id="payMoneyImpl" class="payMoneyImpl"/>
+    <!-- 暴露服务 ref:实际连接的服务实现对象 对应bean的id -->
+    <dubbo:service interface="service.payMoney" ref="payMoneyImpl"/>
+
+</beans>
