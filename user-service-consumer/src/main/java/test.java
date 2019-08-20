@@ -9,6 +9,5 @@ public class test {
         ClassPathXmlApplicationContext cpx=new ClassPathXmlApplicationContext("consumer.xml");
         selectUser su=cpx.getBean(selectUser.class);
         System.out.println(su.Pay());
-        System.in.read();
     }
 }
