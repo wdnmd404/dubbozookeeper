@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="105a34dd-0660-4c0c-9242-b50da1272163" name="Default Changelist" comment="" />
+    <list default="true" id="105a34dd-0660-4c0c-9242-b50da1272163" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbozookeeper.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ntc-interface/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ntc-interface/src/main/java/bean/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ntc-interface/src/main/java/service/payMoney.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ntc-interface/src/main/java/service/selectUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ntc-interface/target/classes/bean/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ntc-interface/target/classes/service/payMoney.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ntc-interface/target/classes/service/selectUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pay-service-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pay-service-provider/src/main/java/payMoneyImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pay-service-provider/src/main/java/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pay-service-provider/src/main/resources/provider.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pay-service-provider/target/classes/payMoneyImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pay-service-provider/target/classes/provider.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pay-service-provider/target/classes/test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service-consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service-consumer/src/main/java/selectUserImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service-consumer/src/main/java/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service-consumer/src/main/resources/consumer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service-consumer/target/classes/consumer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service-consumer/target/classes/selectUserImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service-consumer/target/classes/test.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/pay-service-provider/target/" />
@@ -27,10 +56,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/user-service-consumer/src/main/java/test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="220">
+              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#156#185#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -118,6 +148,7 @@
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -165,6 +196,7 @@
     <option name="width" value="1280" />
     <option name="height" value="776" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -360,12 +392,12 @@
       <workItem from="1565093168962" duration="1596000" />
       <workItem from="1565096409864" duration="7098000" />
       <workItem from="1565107229432" duration="3865000" />
-      <workItem from="1566278971161" duration="3066000" />
+      <workItem from="1566278971161" duration="3323000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15625000" />
+    <option name="totallyTimeSpent" value="15882000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1040" extended-state="6" />
@@ -388,7 +420,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Spring" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32929516" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3296582" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -513,10 +545,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/user-service-consumer/src/main/java/test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="220">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#156#185#0" expanded="true" />
           </folding>
         </state>
       </provider>
