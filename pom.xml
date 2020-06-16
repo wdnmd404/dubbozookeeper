@@ -19,7 +19,7 @@
 
     <!-- 声明版本号的属性 -->
     <properties>
-        <spring.version>3.2.13.RELEASE</spring.version>
+        <spring.version>5.2.7.RELEASE</spring.version>
         <mybatis.version>3.2.2</mybatis.version>
         <log4j.version>1.2.17</log4j.version>
         <jackson.version>2.5.0</jackson.version>
